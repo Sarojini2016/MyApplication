@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Product"
+        android:id="@+id/addtext"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/linear1"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="190dp"-->
+        <!--android:layout_below="@+id/addtext">-->
+       <!---->
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/customedittext"-->
+            <!--android:id="@+id/productedit_EP"/>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Price/gm"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="20sp"/>-->
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/customedittext"-->
+            <!--android:id="@+id/"/>-->
+
+        <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Description"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="20sp"-->
+            <!--android:id="@+id/tvquantity"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_below="@+id/" />-->
+
+
+    <!--</LinearLayout>-->
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Image"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginRight="78dp"-->
+        <!--android:layout_marginEnd="78dp"-->
+        <!--android:id="@+id/images"-->
+        <!--android:layout_alignTop="@+id/linear1"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Drag and Drop"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="10sp"-->
+        <!--android:id="@+id/drop"-->
+        <!--android:layout_marginRight="40dp"-->
+        <!--android:layout_marginEnd="80dp"-->
+        <!--android:layout_below="@+id/images"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginTop="14dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@+id/camera"-->
+        <!--android:layout_below="@+id/drop"-->
+        <!--android:text="or"-->
+        <!--android:id="@+id/or"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:background="@color/blue"-->
+        <!--android:text="upload"-->
+        <!--android:id="@+id/btnupload"-->
+        <!--android:layout_below="@+id/drop"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:layout_alignLeft="@+id/or"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textSize="5sp"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Description"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_below="@+id/linear1" />-->
+
+    <!--<android.support.v7.widget.AppCompatButton-->
+        <!--android:id="@+id/btn_update"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/descriptionedit_EP"-->
+        <!--android:background="@drawable/login_bg"-->
+        <!--android:layout_marginTop="24dp"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:padding="12dp"-->
+        <!--android:text="Update"/>-->
+
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/customedittext"-->
+        <!--android:id="@+id/descriptionedit_EP"-->
+        <!--android:layout_below="@+id/linear1"-->
+        <!--android:layout_marginTop="42dp" />-->
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear1"
+        android:padding="10dp"
+        android:layout_below="@+id/addtext">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:layout_weight="1"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customedittext"
+                android:id="@+id/productedit_EP"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price/gm"
+
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+            <EditText
+                android:inputType="number"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customedittext"
+                android:id="@+id/priceedit_EP"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customedittext"
+                android:id="@+id/descriptionedit_EP"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnuploads"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+
+                    android:textColor="@color/black"
+
+                    android:text="Upload "
+                    />
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/camera"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_path"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/login_bg"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="Update Product"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
